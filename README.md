@@ -1,3 +1,5 @@
+![Alt Text](steam-winter-sale.jpg)
+
 # Steam-Winter-Sale-90s❄️
 
 Welcome to Steam Winter Sale - 90s Edition, a retro-themed holiday website created for the [Codedex Mini Holiday Hackathon!](https://www.codedex.io/holiday-hackathon) 🎄✨ This is my very first attempt at building a website, and I’m excited to share it with you.
