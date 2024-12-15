@@ -1,6 +1,6 @@
 # Steam-Winter-Sale-90s❄️
 
-Welcome to Steam Winter Sale - 90s Edition, a retro-themed holiday website created for the Codedex Mini Holiday Hackathon! 🎄✨ This is my very first attempt at building a website, and I’m excited to share it with you.
+Welcome to Steam Winter Sale - 90s Edition, a retro-themed holiday website created for the [Codedex Mini Holiday Hackathon!](https://www.codedex.io/holiday-hackathon) 🎄✨ This is my very first attempt at building a website, and I’m excited to share it with you.
 
 ## 🌟 About the Project
 
@@ -23,8 +23,16 @@ The goal of this project was to combine the charm of 90s web design with the exc
 - Game Discounts: A showcase of classic games with discounts, complete with "Buy Now" buttons.
 - Background Music: A looping Christmas lo-fi track to enhance the festive atmosphere.
 
+## 🚀 How to View the Website
+
+You can view the live version of the website here 👉 [Steam Winter Sale - 90s Edition](https://aysusulucay.github.io/Steam-Winter-Sale-90s/)
+
+Alternatively, you can clone this repository to your local machine:
+```bash
+git clone https://github.com/your-username/Steam-Winter-Sale-90s.git 
+```
 ## 🎉 My First Website (🌸◡‿◡)
-This is my very first attempt at creating a website, and I’m thrilled to have completed it as part of the Codedex Mini Holiday Hackathon. It was a fun and challenging experience, and I learned a lot about web development along the way.
+This is my very first attempt at creating a website, and I’m thrilled to have completed it as part of the [Codedex Mini Holiday Hackathon](https://www.codedex.io/holiday-hackathon). It was a fun and challenging experience, and I learned a lot about web development along the way.
 
 If you have any feedback or suggestions, feel free to share them! 😊
 
