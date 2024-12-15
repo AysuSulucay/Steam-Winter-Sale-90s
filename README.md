@@ -32,7 +32,7 @@ Alternatively, you can clone this repository to your local machine:
 git clone https://github.com/your-username/Steam-Winter-Sale-90s.git 
 ```
 ## 🎉 My First Website (🌸◡‿◡)
-This is my very first attempt at creating a website, and I’m thrilled to have completed it as part of the [Codedex Mini Holiday Hackathon!](https://www.codedex.io/holiday-hackathon). It was a fun and challenging experience, and I learned a lot about web development along the way.
+This is my very first attempt at creating a website, and I’m thrilled to have completed it as part of the [Codedex Mini Holiday Hackathon](https://www.codedex.io/holiday-hackathon). It was a fun and challenging experience, and I learned a lot about web development along the way.
 
 If you have any feedback or suggestions, feel free to share them! 😊
 
