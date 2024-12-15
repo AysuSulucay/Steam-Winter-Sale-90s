@@ -29,8 +29,5 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     console.error('Play Music button or background music element not found.');
   }
-<<<<<<< Updated upstream
 });
-=======
-});
->>>>>>> Stashed changes
+
