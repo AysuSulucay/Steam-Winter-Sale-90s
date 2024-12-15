@@ -1,0 +1,238 @@
+/* General Body Styling */
+body {
+    background: linear-gradient(to bottom, #003b6f, #001a33); /* Dark blue gradient */
+    color: #ffffff; /* White text */
+    font-family: "Comic Sans MS", "Courier New", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .header {
+  padding: 20px;
+  margin-right: 350px;
+  margin-left: 350px;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+
+  /* Front Cover Section */
+  .front-cover {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1450px; /* Limit the width of the image */
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: auto;
+
+  }
+  .front-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 0 20px #ff6ec7; /* Pink glow effect */
+  }
+
+  /* Steam Letters Logo */
+  .logo {
+    position: absolute;
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    width: 200px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 2; /* Ensure it appears above other elements */
+    animation: glow 1.5s infinite; /* Apply the glowing animation */
+  }
+
+  /* Glowing Animation */
+  @keyframes glow {
+    0% {
+     box-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px purple;
+    }
+    50% {
+     box-shadow: 0 0 20px purple, 0 0 40px purple, 0 0 60px purple;
+    }
+    100% {
+     box-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px purple;
+    }
+  }
+
+  /* Blinking Christmas Lights */
+  .lights {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  .light {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+  }
+  .light:nth-child(1) { background: #ff6ec7; animation-delay: 0s; } /* Pink */
+  .light:nth-child(2) { background: #a3d9ff; animation-delay: 0.2s; } /* Light blue */
+  .light:nth-child(3) { background: #ffcc00; animation-delay: 0.4s; } /* Yellow */
+  .light:nth-child(4) { background: #3ca56e; animation-delay: 0.6s; } /* Green */
+  .light:nth-child(5) { background: #a34b40; animation-delay: 0.8s; } /* Brick red */
+
+  @keyframes blink {
+    50% { opacity: 0; } /* Lights turn off mid-cycle */
+  }
+
+  /* Marquee Banner */
+  .marquee {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00; /* Yellow for contrast */
+    background: #a34b40; /* Brick red */
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px #ffcc00;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    background: #003b6f; /* Dark blue */
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .nav a:hover {
+    text-shadow: 0 0 10px #ff6ec7; /* Pink glow */
+  }
+
+  /* Main Content Styling */
+  .main {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+    padding: 20px;
+    border: 2px solid #ffcc00; /* Yellow border */
+    box-shadow: 0 0 15px #ffcc00;
+  }
+  .main h2 {
+    color: #ffcc00; /* Yellow */
+    font-size: 28px;
+    text-shadow: 2px 2px 5px #003b6f; /* Dark blue shadow */
+  }
+  .main p {
+    color: #ffffff;
+  }
+  .main button {
+    background: linear-gradient(to bottom, #ff6ec7, #a34b40); /* Pink to brick red */
+    color: #ffffff;
+    border: 2px solid #ffcc00; /* Yellow border */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ffcc00;
+  }
+  .main button:hover {
+    background: linear-gradient(to bottom, #a3d9ff, #3ca56e); /* Light blue to green */
+    color: #000000;
+    box-shadow: 0 0 20px #ffffff; /* Bright glow */
+  }
+
+  /* Games Section */
+  .games-section {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+  }
+  .game-card {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+    padding: 15px;
+    border: 2px solid #ffcc00; /* Yellow border */
+    box-shadow: 0 0 15px #ffcc00;
+    text-align: center;
+  }
+  .game-card img {
+    width: auto;
+    height: auto;
+    max-height: 200px; /* Limit the height of the cover image */
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #ffffff; /* Glow effect */
+  }
+  .game-card h3 {
+    color: #ffcc00; /* Yellow */
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .game-card p {
+    margin: 5px 0;
+  }
+  .game-card .price {
+    font-size: 16px;
+    color: #ff6ec7; /* Pink */
+  }
+  .game-card .discount {
+    font-size: 14px;
+    color: #a3d9ff; /* Light blue */
+  }
+  .game-card button {
+    background: linear-gradient(to bottom, #ff6ec7, #a34b40); /* Pink to brick red */
+    color: #ffffff;
+    border: 2px solid #ffcc00; /* Yellow border */
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ffcc00;
+    margin-top: 10px;
+  }
+  .game-card button:hover {
+    background: linear-gradient(to bottom, #a3d9ff, #3ca56e); /* Light blue to green */
+    color: #000000;
+    box-shadow: 0 0 20px #ffffff; /* Bright glow */
+  }
+
+  /* Footer Styling */
+  .footer {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    background: #003b6f; /* Dark blue */
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #ffcc00;
+  }
+
+  /* Blinking Text Animation */
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1; /* Fully visible */
+    }
+    50% {
+      opacity: 0; /* Invisible */
+    }
+  }
+  
+  .blinking-text {
+    animation: blink 1s infinite; /* Apply the blinking animation */
+  }
+
+  /* Snowfall Effect */
+  @keyframes snowfall {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(1000px); } 
+  }
+  
+  .snowflake {
+    position: absolute;
+    top: -50px;
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    opacity: 0.8;
+    border-radius: 50%;
+    animation: snowfall 5s linear infinite;
+  }
