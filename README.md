@@ -53,6 +53,8 @@ If you have any feedback or suggestions, feel free to share them! 😊
 
 Let me take you on a journey through my rollercoaster of emotions, and a newfound love-hate relationship with web development. Spoiler alert: CSS and I are no longer on speaking terms.
 
+![Alt Text](https://i0.wp.com/media1.tenor.com/images/bff859c5cb72a0b39b9e986c73a0a42c/tenor.gif?resize=650,400)
+
 ### 1. HTML: The "Oh, this isn't so bad" phase
 
 When I first started with HTML I thought, "Hey this is easy Just slap some tags here and there, and voilà, a website" Little did I know, this was just the calm before the storm. Sure, I could throw in some <div>s and <img>s, but as soon as I tried to organize things, I realized I was building a house of cards. One wrong move, and everything collapsed into chaos. But hey, at least I could see something on the screen, so I gave myself a pat on the back.
