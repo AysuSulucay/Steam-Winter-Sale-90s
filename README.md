@@ -83,3 +83,8 @@ And honestly? Even though CSS numbed my eyes and HTML made me question my life c
 In the end, this hackathon was like a crash course in web development, sprinkled with a healthy dose of nostalgia and a pinch of madness. I may have started as a complete newbie, but I came out of it with a website, a lot of lessons learned, and a slightly bruised ego 🙈 And who knows? Maybe one day, CSS and I will reconcile. But for now, I’m keeping my distance 😓
 
 ![Alt Text](https://media.tenor.com/xxPgBuwmddQAAAAi/cat.gif)
+
+
+---
+## References
+- christmas-lofi-music - https://pixabay.com/music/christmas-christmas-lofi-music-christmas-chill-background-272633/
