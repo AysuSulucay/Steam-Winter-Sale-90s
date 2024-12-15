@@ -57,7 +57,7 @@ Let me take you on a journey through my rollercoaster of emotions, and a newfoun
 
 ### 1. HTML: The "Oh, this isn't so bad" phase
 
-When I first started with HTML I thought, "Hey this is easy Just slap some tags here and there, and voilà, a website" Little did I know, this was just the calm before the storm. Sure, I could throw in some <div>s and <img>s, but as soon as I tried to organize things, I realized I was building a house of cards. One wrong move, and everything collapsed into chaos. But hey, at least I could see something on the screen, so I gave myself a pat on the back.
+When I first started with HTML I thought, "Hey this is easy Just slap some tags here and there, and voilà, a website" Little did I know, this was just the calm before the storm. Sure, I could throw in some `divs` and `img`s, but as soon as I tried to organize things, I realized I was building a house of cards. One wrong move, and everything collapsed into chaos. But hey, at least I could see something on the screen, so I gave myself a pat on the back.
 
 ### 2. CSS: The "Why does this hate me?" phase
 
