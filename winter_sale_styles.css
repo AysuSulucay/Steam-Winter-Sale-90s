@@ -236,3 +236,24 @@ body {
     border-radius: 50%;
     animation: snowfall 5s linear infinite;
   }
+
+  /* Play Music Button Styling */
+.play-music-button {
+    position: absolute; /* Fixed position to stay in the top-right corner */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    background: linear-gradient(to bottom, #ff6ec7, #a34b40); /* Pink to brick red */
+    color: #ffffff;
+    border: 2px solid #ffcc00; /* Yellow border */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ffcc00;
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+  
+  .play-music-button:hover {
+    background: linear-gradient(to bottom, #a3d9ff, #3ca56e); /* Light blue to green */
+    color: #000000;
+    box-shadow: 0 0 20px #ffffff; /* Bright glow */
+  }
